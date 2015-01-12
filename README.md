@@ -8,10 +8,11 @@ calls.
 
 # Important Note & Disclaimer
 
-1. The purpose of this package is to allow Julia to be safely used in a public environment without exposing access to the underlying machine.
-Really, it is only intended for demonstration and education on Julia. This
-Package removes a lot of key functionality that packages within Julia
-are bound to rely on. As such, reliability/compatibility with other packages is not guaranteed. Expect side effects.
+1. The purpose of this package is to allow Julia to be safely used in a
+   public environment without exposing access to the underlying machine.
+Really, it is only intended for demonstration and education on Julia. It
+works by removing a lot of key functionality. As such, reliability/compatibility 
+with other packages is not guaranteed. Expect side effects.
 
 2. This package is by no means failsafe. Obviously I've done everything I can to ensure that it works effectively, but it's nearly
 impossible to ensure that every conceivable edge case of security is covered. If
